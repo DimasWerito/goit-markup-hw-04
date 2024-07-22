@@ -359,6 +359,34 @@ button {
   text-align: center;
   color: var(--primary-black-color);
 }
+
+.socials-item {
+}
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 50%;
+  fill: #ffffff;
+  background-color: #404bbf;
+}
+
+.team-socials {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 0 16px;
+  margin-top: 8px;
+}
+
+.socials-icon {
+}
+
 /* #endregion */
 
 /* #region Portfolio */
@@ -414,6 +442,9 @@ button {
   background-color: #2e2f42;
 }
 
+.footer .container {
+  display: flex;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -436,4 +467,36 @@ button {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
+.footer-socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 50%;
+  fill: #ffffff;
+  background-color: #404bbf;
+}
+
+.footer-socials-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-media-text {
+  margin-bottom: 16px;
+  color: var(--WHITE, #fff);
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
 /* #endregion */
