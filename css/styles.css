@@ -19,6 +19,7 @@
 *::before,
 *::after {
   box-sizing: inherit;
+  bottom: -1px;
 }
 
 /* #region Base styles */
@@ -168,7 +169,6 @@ button {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
-  bottom: -1px;
 }
 
 .nav-link.active {
