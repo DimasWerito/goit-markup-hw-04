@@ -404,6 +404,14 @@ button {
   color: var(--primary-black-color);
 }
 
+.team-socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 0 16px;
+  margin-top: 8px;
+}
+
 .socials-item {
 }
 
@@ -425,15 +433,6 @@ button {
 .socials-link:hover,
 .socials-link:focus {
   background-color: #404bbf;
-}
-
-.team-socials {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 0 16px;
-  margin-top: 8px;
 }
 
 .socials-icon {
