@@ -417,18 +417,19 @@ button {
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 50%;
   fill: #ffffff;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   transition: var(--anim-slow);
   transition-property: color;
 }
 
 .socials-link:hover,
 .socials-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .team-socials {
   display: flex;
+  justify-content: center;
   justify-content: space-between;
   gap: 24px;
   padding: 0 16px;
@@ -436,6 +437,7 @@ button {
 }
 
 .socials-icon {
+  fill: #f4f4fd;
 }
 
 /* #endregion */
