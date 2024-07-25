@@ -149,7 +149,6 @@ button {
 .nav-item {
   position: relative;
   display: block;
-  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -158,6 +157,7 @@ button {
 }
 
 .nav-link {
+  padding: 24px 0;
   position: relative;
   display: block;
   cursor: pointer;
